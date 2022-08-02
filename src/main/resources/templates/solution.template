@@ -1,0 +1,15 @@
+package org.example.problems.%s;
+
+import org.example.problems.SolutionInterface;
+
+public class Solution implements SolutionInterface {
+    @Override
+    public String getName() {
+        return "%s";
+    }
+
+    @Override
+    public String getUrl() {
+        return "%s";
+    }
+}
