@@ -13,3 +13,4 @@
 | Valid Palindrome                | [problem](https://leetcode.com/problems/valid-palindrome/) | [solution](./src/main/java/org/example/problems/best_time_to_buy_and_sell_stock/Solution.java) | [test](./src/test/java/BestTimeToBuyAndSellStockTest.java) |
 | Invert Binary Tree              | [problem](https://leetcode.com/problems/invert-binary-tree/) | [solution](./src/main/java/org/example/problems/invert_binary_tree/Solution.java) | [test](./src/test/java/InvertBinaryTreeTest.java) |
 | Valid Anagram | [problem](https://leetcode.com/problems/valid-anagram/) | [solution](./src/main/java/org/example/problems/valid_anagram/Solution.java) | [test](./src/test/java/ValidAnagramTest.java) |
+| Binary Search | [problem](https://leetcode.com/problems/binary-search/) | [solution](./src/main/java/org/example/problems/binary_search/Solution.java) | [test](./src/test/java/BinarySearchTest.java) |
