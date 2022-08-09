@@ -15,3 +15,4 @@
 | Valid Anagram                   | [problem](https://leetcode.com/problems/valid-anagram/) | [solution](./src/main/java/org/example/problems/valid_anagram/Solution.java) | [test](./src/test/java/ValidAnagramTest.java) |
 | Binary Search                   | [problem](https://leetcode.com/problems/binary-search/) | [solution](./src/main/java/org/example/problems/binary_search/Solution.java) | [test](./src/test/java/BinarySearchTest.java) |
 | Flood Fill                      | [problem](https://leetcode.com/problems/flood-fill/) | [solution](./src/main/java/org/example/problems/flood_fill/Solution.java) | [test](./src/test/java/FloodFillTest.java) |
+| Maximum Subarray | [problem](https://leetcode.com/problems/maximum-subarray/) | [solution](./src/main/java/org/example/problems/maximum_subarray/Solution.java) | [test](./src/test/java/MaximumSubarrayTest.java) |
