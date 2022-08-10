@@ -16,3 +16,4 @@
 | Binary Search                   | [problem](https://leetcode.com/problems/binary-search/) | [solution](./src/main/java/org/example/problems/binary_search/Solution.java) | [test](./src/test/java/BinarySearchTest.java) |
 | Flood Fill                      | [problem](https://leetcode.com/problems/flood-fill/) | [solution](./src/main/java/org/example/problems/flood_fill/Solution.java) | [test](./src/test/java/FloodFillTest.java) |
 | Maximum Subarray | [problem](https://leetcode.com/problems/maximum-subarray/) | [solution](./src/main/java/org/example/problems/maximum_subarray/Solution.java) | [test](./src/test/java/MaximumSubarrayTest.java) |
+| Lowest Common Ancestor of a Binary Search Tree | [problem](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [solution](./src/main/java/org/example/problems/lowest_common_ancestor_of_a_binary_search_tree/Solution.java) | [test](./src/test/java/LowestCommonAncestorOfABinarySearchTreeTest.java) |
