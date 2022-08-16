@@ -1,5 +1,6 @@
 package org.example.problems.ransom_note;
 
+import org.example.helpers.CharsCountMap;
 import org.example.problems.SolutionInterface;
 
 public class Solution implements SolutionInterface {
@@ -34,33 +35,5 @@ public class Solution implements SolutionInterface {
         }
 
         return false;
-    }
-
-    private static class CharsCountMap {
-        private static final int MAP_SIZE = 52;
-
-        private final int[] map = new int[MAP_SIZE];
-
-        public Integer getOrDefault(char key, int defaultValue) {
-            return map[normalizeKey(key)] > 0
-                ? map[normalizeKey(key)]
-                : defaultValue;
-        }
-
-        public void put(char key, int value) {
-            map[normalizeKey(key)] = value;
-        }
-
-        private int normalizeKey(char c) {
-            if (c >= 'a' && c <= 'z') {
-                return c - 'a';
-            }
-
-            if (c >= 'A' && c <= 'Z') {
-                return c - 'A' + 26;
-            }
-
-            throw new IllegalArgumentException("Unsupported character");
-        }
     }
 }

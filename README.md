@@ -23,4 +23,4 @@
 | First Bad Version                              | [problem](https://leetcode.com/problems/first-bad-version/) | [solution](./src/main/java/org/example/problems/first_bad_version/Solution.java) | [test](./src/test/java/FirstBadVersionTest.java) |
 | Ransom Note                                    | [problem](https://leetcode.com/problems/ransom-note/) | [solution](./src/main/java/org/example/problems/ransom_note/Solution.java) | [test](./src/test/java/RansomNoteTest.java) |
 | Climbing Stairs                                | [problem](https://leetcode.com/problems/climbing-stairs/) | [solution](./src/main/java/org/example/problems/climbing_stairs/Solution.java) | [test](./src/test/java/ClimbingStairsTest.java) |
-
+| Longest Palindrome                             | [problem](https://leetcode.com/problems/longest-palindrome/) | [solution](./src/main/java/org/example/problems/longest_palindrome/Solution.java) | [test](./src/test/java/LongestPalindromeTest.java) |
