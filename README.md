@@ -22,3 +22,5 @@
 | Implement Queue using Stacks                   | [problem](https://leetcode.com/problems/implement-queue-using-stacks/) | [solution](./src/main/java/org/example/problems/implement_queue_using_stacks/Solution.java) | [test](./src/test/java/ImplementQueueUsingStacksTest.java) |
 | First Bad Version                              | [problem](https://leetcode.com/problems/first-bad-version/) | [solution](./src/main/java/org/example/problems/first_bad_version/Solution.java) | [test](./src/test/java/FirstBadVersionTest.java) |
 | Ransom Note                                    | [problem](https://leetcode.com/problems/ransom-note/) | [solution](./src/main/java/org/example/problems/ransom_note/Solution.java) | [test](./src/test/java/RansomNoteTest.java) |
+| Climbing Stairs                                | [problem](https://leetcode.com/problems/climbing-stairs/) | [solution](./src/main/java/org/example/problems/climbing_stairs/Solution.java) | [test](./src/test/java/ClimbingStairsTest.java) |
+
