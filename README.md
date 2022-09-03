@@ -26,4 +26,4 @@
 | Longest Palindrome                             | [problem](https://leetcode.com/problems/longest-palindrome/) | [solution](./src/main/java/org/example/problems/longest_palindrome/Solution.java) | [test](./src/test/java/LongestPalindromeTest.java) |
 | Reverse Linked List                            | [problem](https://leetcode.com/problems/reverse-linked-list/) | [solution](./src/main/java/org/example/problems/reverse_linked_list/Solution.java) | [test](./src/test/java/ReverseLinkedListTest.java) |
 | Majority Element                               | [problem](https://leetcode.com/problems/majority-element/) | [solution](./src/main/java/org/example/problems/majority_element/Solution.java) | [test](./src/test/java/MajorityElementTest.java) |
-
+| Add Binary                                     | [problem](https://leetcode.com/problems/add-binary/) | [solution](./src/main/java/org/example/problems/add_binary/Solution.java) | [test](./src/test/java/AddBinaryTest.java) |
