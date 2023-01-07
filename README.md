@@ -27,3 +27,4 @@
 | Reverse Linked List                            | [problem](https://leetcode.com/problems/reverse-linked-list/) | [solution](./src/main/java/org/example/problems/reverse_linked_list/Solution.java) | [test](./src/test/java/ReverseLinkedListTest.java) |
 | Majority Element                               | [problem](https://leetcode.com/problems/majority-element/) | [solution](./src/main/java/org/example/problems/majority_element/Solution.java) | [test](./src/test/java/MajorityElementTest.java) |
 | Add Binary                                     | [problem](https://leetcode.com/problems/add-binary/) | [solution](./src/main/java/org/example/problems/add_binary/Solution.java) | [test](./src/test/java/AddBinaryTest.java) |
+| Diameter of Binary Tree | [problem](https://leetcode.com/problems/diameter-of-binary-tree/) | [solution](./src/main/java/org/example/problems/diameter_of_binary_tree/Solution.java) | [test](./src/test/java/DiameterOfBinaryTreeTest.java) |
