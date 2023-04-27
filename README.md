@@ -1,3 +1,5 @@
+![tests](https://github.com/13DaGGeR/grind75/actions/workflows/run-tests.yml/badge.svg)
+
 ### Approach to solve Grind75 problems set
 
 [List of problems](https://www.techinterviewhandbook.org/grind75)

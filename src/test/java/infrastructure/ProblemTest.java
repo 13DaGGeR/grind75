@@ -1,7 +1,7 @@
 package infrastructure;
 
 import org.example.infrastructure.stub_creator.Problem;
-import org.junit.gen5.api.Assertions;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -28,7 +28,7 @@ public class ProblemTest {
         URL url = new URL("https://test.test");
         Problem p = new Problem(title, url);
 
-        Assertions.assertTrue(expectedPackageName.equals(p.getPackageName()), p.getPackageName());
-        Assertions.assertTrue(expectedTestClassName.equals(p.getTestClassName()), p.getTestClassName());
+        Assertions.assertEquals(expectedPackageName, p.getPackageName(), p.getPackageName());
+        Assertions.assertEquals(expectedTestClassName, p.getTestClassName(), p.getTestClassName());
     }
 }
