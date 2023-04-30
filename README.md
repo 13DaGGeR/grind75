@@ -35,3 +35,4 @@
 | Contains Duplicate                             | [problem](https://leetcode.com/problems/contains-duplicate/) | [solution](./src/main/java/org/example/problems/contains_duplicate/Solution.java) | [test](./src/test/java/ContainsDuplicateTest.java) |
 | Maximum Subarray                               | [problem](https://leetcode.com/problems/maximum-subarray/) | [solution](./src/main/java/org/example/problems/maximum_subarray/Solution.java) | [test](./src/test/java/MaximumSubarrayTest.java) |
 | Insert Interval                                | [problem](https://leetcode.com/problems/insert-interval/) | [solution](./src/main/java/org/example/problems/insert_interval/Solution.java) | [test](./src/test/java/InsertIntervalTest.java) |
+| 01 Matrix                                      | [problem](https://leetcode.com/problems/01-matrix/) | [solution](./src/main/java/org/example/problems/_01_matrix/Solution.java) | [test](./src/test/java/Problem01MatrixTest.java) |
