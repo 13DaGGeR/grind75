@@ -1,34 +1,34 @@
-package org.example.helpers;
+package org.example.helpers.graph;
 
 import java.util.*;
 
-public class GraphNode {
+public class Node {
     public int val;
-    public List<GraphNode> neighbors;
+    public List<Node> neighbors;
 
-    public GraphNode() {
+    public Node() {
         val = 0;
         neighbors = new ArrayList<>();
     }
 
-    public GraphNode(int _val) {
+    public Node(int _val) {
         val = _val;
-        neighbors = new ArrayList<GraphNode>();
+        neighbors = new ArrayList<>();
     }
 
-    public GraphNode(int _val, ArrayList<GraphNode> _neighbors) {
+    public Node(int _val, ArrayList<Node> _neighbors) {
         val = _val;
         neighbors = _neighbors;
     }
 
-    public static GraphNode createFromArray(int[][] values) {
+    public static Node createFromArray(int[][] values) {
         if (values.length == 0) {
             return null;
         }
 
-        GraphNode[] list = new GraphNode[values.length];
+        Node[] list = new Node[values.length];
         for (int i = 0; i < values.length; i++) {
-            list[i] = new GraphNode(i + 1);
+            list[i] = new Node(i + 1);
         }
 
         for (int i = 0; i < values.length; i++) {
@@ -43,13 +43,13 @@ public class GraphNode {
     public int[][] export() {
         List<List<Integer>> connections = new ArrayList<>();
         Set<Integer> processed = new HashSet<>();
-        Queue<GraphNode> leftToProcess = new LinkedList<>();
+        Queue<Node> leftToProcess = new LinkedList<>();
 
         leftToProcess.add(this);
         while (leftToProcess.peek() != null) {
-            GraphNode current = leftToProcess.poll();
+            Node current = leftToProcess.poll();
             List<Integer> currentConnections = new ArrayList<>();
-            for (GraphNode neighbour: current.neighbors) {
+            for (Node neighbour: current.neighbors) {
                 currentConnections.add(neighbour.val);
                 if (processed.contains(neighbour.val)) {
                     continue;
@@ -79,10 +79,11 @@ public class GraphNode {
 
     @Override
     public boolean equals(Object obj) {
-        if (!(obj instanceof GraphNode)) {
+        if (!(obj instanceof Node)) {
             return false;
         }
 
-        return Arrays.deepEquals(this.export(), ((GraphNode) obj).export());
+        return Arrays.deepEquals(this.export(), ((Node) obj).export());
     }
 }
+
