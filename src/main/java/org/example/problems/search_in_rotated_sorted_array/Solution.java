@@ -51,8 +51,7 @@ public class Solution implements SolutionInterface {
         return -1;
     }
 
-    public int getShiftKey(int[] nums)
-    {
+    public int getShiftKey(int[] nums) {
         int start = nums[0];
         int end = nums[nums.length - 1];
         if (end > start || nums.length < 2) {
